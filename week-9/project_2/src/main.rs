@@ -13,6 +13,7 @@ fn main() {
 
     let mut file = std::fs::File::create("pau_smis.csv").expect("create failed");
     
+    //i had no idea how to do this part so i used AI
     for students in students.iter() {
 
 
